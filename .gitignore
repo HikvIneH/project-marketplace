@@ -8,27 +8,12 @@
 /.bundle
 
 # Ignore the default SQLite database.
-/db/*.mysql2
-/db/*.mysql2-journal
+/db/*.sqlite3
+/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
 /log/*
-/tmp/*
 !/log/.keep
-!/tmp/.keep
+/tmp
 
-# Ignore uploaded files in development
-/storage/*
-!/storage/.keep
-
-/node_modules
-/yarn-error.log
-
-/public/assets
-.byebug_history
-
-# Ignore master key for decrypting credentials and more.
-/config/master.key
-
-# Ignore db config.
 /config/database.yml
