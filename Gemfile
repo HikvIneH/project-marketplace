@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails'
 
 group :development,:test do
 	gem 'rspec-rails'
@@ -31,7 +31,7 @@ end
 
 gem 'mysql2', '~> 0.3.20'
 gem 'bootstrap-sass'
-gem 'sprockets', '2.11.0'
+gem 'sprockets'
 gem 'bcrypt-ruby', '3.1.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
