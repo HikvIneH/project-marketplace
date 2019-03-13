@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.1'
+ruby '2.3.8'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
+gem 'rails', '~> 4.2.11'
 
 group :development,:test do
 	gem 'rspec-rails'
@@ -29,7 +29,8 @@ group :test do
 	gem 'launchy'
 end
 
-gem 'mysql2', '~> 0.3.20'
+gem 'bootsnap'
+gem 'mysql2'
 gem 'bootstrap-sass'
 gem 'sprockets'
 gem 'bcrypt-ruby', '3.1.2'
